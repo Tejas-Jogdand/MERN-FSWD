@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Header Footer</title>
+    <style>
+        body {
+            background: #e1d6d6;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            background: #b7c17e;
+            overflow: hidden;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+
+        .navlist {
+            color: #542727;
+        }
+
+        .navlist li {
+            float: left;
+            margin: 10px;
+            padding: 10px;
+            list-style: none;
+        }
+
+        aside {
+            background: #a63939;
+            flex: 1;
+        }
+
+        section {
+            background: #7b5555;
+            display: flex;
+            height: calc(100vh - 100px);
+            padding: 0px;
+            margin: 0px;
+        }
+
+        section div{
+            flex: 2;
+            
+        }
+
+        footer{
+            background: #b7c17e;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navlist">
+                <li>Home</li>
+                <li>Options</li>
+                <li>About</li>
+                <li>more</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div>
+            <article>
+                <p>This is article</p>
+                <a href="./06.Html.html">click here</a>
+            </article>
+        </div>
+        <aside>
+            <div>
+                <p>This is aside</p>
+            </div>
+        </aside>
+    </section>
+
+    <footer>
+        <div>
+            <p>Copyright 2020</p>
+        </div>
+    </footer>
+</body>
+
+</html>
