@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label for="email" >Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <label for="language">language</label>
+        <select name="language" id="language" required>
+           <option value="English">English</option>
+           <option value="Marathi">Marathi</option>
+           <option value="Hindi">Hindi</option>
+        </select>
+        <br><br>
+
+        <p>Last year Grade:</p>
+        <input type="radio" name="grade" id="A" checked>
+        <label for="A">A</label>
+        <br>
+        <input type="radio" name="grade" id="B">
+        <label for="B">B</label>
+        <br>
+        <input type="radio" name="grade" id="C">
+        <label for="C">C</label>
+        <br><br>
+        
+        <p>Choose Fav programming language:</p>
+        <input type="checkbox" name="plang" id="Python">
+        <label for="Python">Python</label>
+        <br>
+        <input type="checkbox" name="plang" id="Java">
+        <label for="Java">Java</label>
+        <br>
+        <input type="checkbox" name="plang" id="Javascript">
+        <label for="Javascript">Javascript</label>
+        <br><br>
+
+        <br><br>
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

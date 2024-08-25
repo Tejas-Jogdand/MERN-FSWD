@@ -1,0 +1,21 @@
+/* universal selector */
+*{
+    color: rgb(183, 146, 59)
+}
+
+/* Element selector */
+h1{
+    color:rgb(76, 127, 157)
+}
+
+/* Class selector */
+.hello{
+    color: rgb(12, 162, 32);
+}
+
+/* Id selector */
+#hello{
+    color: rgb(162, 82, 39);
+}
+
+/* universal selector < element selector < class selector < Id selector */
