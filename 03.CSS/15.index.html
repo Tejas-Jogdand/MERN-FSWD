@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Transformation</title>
+
+    <style>
+        div{
+            height: 80px;
+            width: 300px;
+            border: 2px solid black;
+            background: #ec8b2f;
+        }
+        .box2{
+            /* transform (x,y) mai hota (+,-) h aur deg, px are parameter */
+            /* transform: rotate(-30deg);
+            transform: rotate(20deg); */
+            /* transform: scale(0.5,1.5); */
+            /* transform: scalex(0.5); */
+            /* transform: translatey(100px); */
+            transform: skew(20deg,2deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">normal div</div>
+    <br>
+    <div class="box2">Using transformation</div>
+</body>
+</html>
