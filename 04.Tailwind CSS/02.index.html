@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS webpage</title>
+    <link rel="stylesheet" href="./src/output.css">
+    
 </head>
+
 <body>
-    <header>
-        
+    <header class="bg-slate-700 py-2 md:bg-zinc-500 sm:bg-red-600">
+        <nav class="text-white flex flex-col justify-between mx-2 md:flex-row">
+            <div class="logo">
+                Logo
+            </div>
+            <ul class="flex space-x-4">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
     </header>
 
     <main>
